@@ -1,0 +1,131 @@
+body {
+	color: #97b15e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color:#051c00;
+}
+.clear{clear:both;}
+* {margin: 0px;padding: 0px;}
+#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 767px;
+}
+a{color:#80ba04;}
+a:hover{color:#b7fb24;}
+/********************** Header ***************************/
+#header {
+	background-image:url(../images/header.jpg);
+	width:767px;
+	height:404px;
+	position:relative;
+}
+#header ul{
+	position:absolute;
+	top:367px;
+	left:100px;
+}
+#header li{
+	display:block;
+	float:left;
+	width:97px;
+}
+#header ul a{
+	color:#aefa0d;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+#header ul a:hover{color:#97b15e;}
+
+/********************** Welcome ***************************/
+#welcome {
+	background-image:url(../images/dj.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#welcome h3{
+	margin: 10px 10px 10px 110px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #7eae19;}
+#welcome p{
+margin: 10px 10px 10px 110px;width:416px;}
+#welcome a{}
+
+/********************** Content ***************************/
+#content {
+	background-image:url(../images/dj.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#content h3, h1{
+	margin: 10px 10px 10px 110px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #7eae19;}
+#content p{
+margin: 10px 10px 10px 110px;width:416px;}
+#content a{}
+
+#content ul
+{
+    margin: 10px 10px 10px 125px;
+}
+
+#content div.form
+{
+    margin-left: 110px;
+}
+
+/********************** News ***************************/
+#news {
+	background-image:url(../images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 10px 10px 10px 110px;
+}
+#news h3{
+	margin: 20px 10px 15px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #7eae19;
+}
+.newsitem{float:left;width:275px;
+display:inline;}
+.newsitem a{}
+.newsitem img{float:left;margin-right:10px;}
+.newsitem span{
+	color:#97b15e;
+	font-size: 9px;
+	font-weight: 900;
+}
+.newsitem p{margin: 10px 10px 15px 10px;}
+/********************** Best DJ's ***************************/
+#dj {
+	background-image:url(../images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 30px 0px 0px 110px;
+}
+#dj img{border:0px;}
+#dj a{border:0px;float:left;}
+#dj a:hover{}
+/********************** Footer ***************************/
+#footer {
+	background-image:url(../images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 10px 10px 10px 110px;
+	text-align:center;
+}
